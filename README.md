@@ -22,11 +22,10 @@ Existing cardiac monitoring solutions (such as traditional Holter monitors) are 
  📂 Repository Structure
 text
 SMI-detection/
-│
-├── app.py                  # Interactive Streamlit web prototype
-├── model_cnn.py            # PyTorch 1D-CNN model architecture
-├── train_model.py          # Training and evaluation script
-├── saved_models/
-│   └── ecg_cnn_model.pth   # Serialized trained model weights
-├── ecg_pipeline.py         # Digital signal preprocessing pipeline
-└── README.md               # Project documentation
+app.py                  # Interactive Streamlit web prototype
+ model_cnn.py            # PyTorch 1D-CNN model architecture
+ train_model.py          # Training and evaluation script
+saved_models/
+ecg_cnn_model.pth   # Serialized trained model weights
+ ecg_pipeline.py         # Digital signal preprocessing pipeline
+ README.md               # Project documentation
